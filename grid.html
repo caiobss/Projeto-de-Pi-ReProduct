@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproduct/protótipo</title>
+    <style>
+        body{
+            margin: 0%;
+            padding: 0%;
+            background: rgb(243, 241, 241);
+            box-sizing: border-box;
+        }
+        div{
+            border-radius: 7px;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            grid-template-rows: 17vh 55vh 1vh;
+            grid-gap: 10px;
+        }
+        #produtos{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 30vh 30vh 5vh;
+            grid-gap: 20px; margin-top: 40px;
+        }
+        #pd2{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 30vh 30vh 30vh 20vh;
+            grid-gap: 20px; margin-top: 40px;
+        }
+        header,ul,li{
+            background:rgb(196, 196, 196);
+            /*grid-row: 3/3;*/
+            grid-column: 1/3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: ivory;
+            padding: 0 40px;
+        }
+        main{
+            background: rgb(196, 196, 196);
+            grid-column: 1/3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: ivory;
+        }
+        #box1{
+            background: rgb(196, 196, 196);
+            grid-row: 1/3 ; display: flex; justify-content: center; align-items: center;
+        }
+        #box2{
+            background: rgb(196, 196, 196);
+            display: flex; justify-content: center; align-items: center;
+        }
+        #box3{
+            background: rgb(196, 196, 196);
+            display: flex; justify-content: center; align-items: center;
+        }
+        #box4{
+            background: rgb(196, 196, 196);
+            display: flex; justify-content: center; align-items: center;
+        }
+        #box5{
+            background: rgb(182, 182, 182);
+            display: flex; justify-content: center; align-items: center;
+        }
+
+        #box6{
+            background: rgb(182, 182, 182);
+            display: flex; justify-content: center; align-items: center;
+            grid-row: 1/3 ;
+        }
+        #box7{
+            background: rgb(196, 196, 196);
+            display: flex; justify-content: center; align-items: center;
+        }
+        #box8{
+            background: rgb(196, 196, 196);
+            display: flex; justify-content: center; align-items: center;
+        }
+        #box9{
+            background: rgb(196, 196, 196);
+            display: flex; justify-content: center; align-items: center;
+        }
+        #box10{
+            background: rgb(196, 196, 196);
+            display: flex; justify-content: center; align-items: center;
+        }
+        footer{
+            background:rgb(187, 115, 115);
+            grid-column: 1/4;
+            grid-row: 4/4;
+        }
+        
+    </style>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <header id="a">
+            </header>
+            <main id="b" onclick="b1()">
+            </main>
+        </div>
+        <div id="produtos">
+            <div id="box1"><h1></h1></div>
+            <div id="box2"><h1></h1></div>
+            <div id="box3"><h1></h1></div>
+            <div id="box4"><h1></h1></div>
+            <div id="box5"><h1></h1></div>
+        </div>
+        <div id="pd2">
+            <div id="box6">6<h1></h1></div>
+            <div id="box7">7<h1></h1></div>
+            <div id="box8">8<h1></h1></div>
+            <div id="box9"><h1></h1></div>
+            <div id="box10"><h1></h1></div>
+            <footer></footer>
+        </div>
+    </section>
+    <script>
+        var j = document.getElementById('a')
+        j.addEventListener('click', a1),j.addEventListener('mouseenter',b3),j.addEventListener('mouseout', b5)
+        function a1(){
+            j.style.background='red'
+        }function b3(){
+            j.style.background='rgb(182, 182, 182)'
+        }function b5(){
+            j.style.background='rgb(196, 196, 196)'
+        }
+        ///////////////////////////////
+        var f = document.getElementById('b')
+        f.addEventListener('click', b1),f.addEventListener('mouseenter', b2),f.addEventListener('mouseout',b4)
+        function b1(){
+            f.style.background='red'
+        }function b2(){
+            f.style.background='rgb(182, 182, 182)'
+        }function b4(){
+            f.style.background='rgb(196, 196, 196)'
+        }
+        ///////////////////////////////
+        var produt = document.getElementById('box1')
+        produt.addEventListener('click', g1),produt.addEventListener('mouseenter', g2),produt.addEventListener('mouseout',g3)
+        function g1(){
+            produt.style.background='red'
+        }function g2(){
+            produt.style.background='rgb(182, 182, 182)'
+        }function g3(){
+            produt.style.background='rgb(196, 196, 196)'
+        }
+        ///////////////////////////////
+        var pro = document.getElementById('box2')
+        pro.addEventListener('click', h1),pro.addEventListener('mouseenter', h2),pro.addEventListener('mouseout',h3)
+        function h1(){
+            pro.style.background='red'
+        }
+        function h2(){
+            pro.style.background='rgb(182, 182, 182)'
+        }
+        function h3(){
+            pro.style.background='rgb(196, 196, 196)'
+        }
+        ///////////////////////////////
+        var pr = document.getElementById('box3')
+        pr.addEventListener('click', q1),pr.addEventListener('mouseenter', q2),pr.addEventListener('mouseout',q3)
+        function q1(){
+            pr.style.background='red'
+        }
+        function q2(){
+            pr.style.background='rgb(182, 182, 182)'
+        }
+        function q3(){
+            pr.style.background='rgb(196, 196, 196)'
+        }
+        ///////////////////////////////
+        var p = document.getElementById('box4')
+        p.addEventListener('click', t1),p.addEventListener('mouseenter', t2),p.addEventListener('mouseout',t3)
+        function t1(){
+            p.style.background='red'
+        }
+        function t2(){
+            p.style.background='rgb(182, 182, 182)'
+        }
+        function t3(){
+            p.style.background='rgb(196, 196, 196)'
+        }
+    </script>
+</body>
+</html>
