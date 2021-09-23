@@ -311,12 +311,13 @@ header nav  {
     grid-gap: 1rem;
     margin: 1rem;
   }
-  .tittle-produto{
+  .tittle-produto, .tittle-produto a{
     font-size: 1.5rem;
     margin: 3rem 4rem 0 4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #202020;
   }
   .produto{
     background-color: #006837a4;
@@ -367,7 +368,7 @@ header nav  {
     justify-content: space-evenly;
   }
   .empresa{
-    margin: 2rem 0 2rem;
+    margin: 2rem 0 5rem;
     position: relative;
     height: 30rem;
     width: 20rem;
@@ -429,31 +430,6 @@ header nav  {
     box-shadow: 1px 1px 1px #949292;
   }
   /*Abaixo inicia a estilização do footer para pc*/
-  /*footer {
-    display: flex;
-    justify-content: space-evenly;
-    height: 30%;
-    background-color: #424242;
-    color: #fff;
-  }
-  .footer-content{
-    margin-top: 5rem;
-    display: flex;
-  }
-  #footer-position{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  footer .social-media a {
-    margin-top: 15px;
-    color: #fff;
-    text-decoration: none;
-  }
-
-  footer a:hover {
-    color: #c7c7c7;
-  }*/
   footer{
     background-color: #424242;
     width: 100%;
