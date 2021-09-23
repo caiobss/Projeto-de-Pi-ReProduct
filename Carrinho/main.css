@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+header h1{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+.buscar-produto{
+    background-color: rgb(233, 233, 233);
+    height: 12rem;
+    width: 100%;
+}
+.txt-buscar-pratudo{
+    padding: 3.5rem;
+}
+.buscar-produto input{
+   width: 100%;
+   outline: none;
+}
+.buscar-produto button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 6rem;
+}
+table{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+table input{
+    outline: none;
+}
+td, th{
+    border-top: 1px rgb(179, 179, 179) solid;
+}
