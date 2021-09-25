@@ -431,41 +431,78 @@ header nav  {
   }
   /*Abaixo inicia a estilização do footer para pc*/
   footer{
-    background-color: #424242;
+    position: relative;
+    background-color: #273238;
     width: 100%;
     height: 20rem;
   }
-  .footer-content, footer a{
+  .footer-content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 1200px;
+    height: 100%;
     width: 100%;
+  }
+  .footer-content a{
+    text-decoration: none;
+    color: #858a90;
+  }
+  .footer-up{
+    height: 80%;
+    width: 100%;
+  }
+  .footer-up-content{
     display: flex;
-    text-align: center;
     justify-content: space-evenly;
-    color: #ffff;
+    color: #858a90;
   }
-  .footer-content i{
-    color: rgb(156, 157, 250);
-    font-size: 1.6rem;
-    padding: 0 1rem;
+  .footer-up-content div{
+    width: 15rem;
   }
-  .footer-position{
-    margin-top: 2rem ;
+  .information{
     display: flex;
     flex-direction: column;
   }
-  .footer-position h1{
-    margin-bottom: 2rem;
+  .atualizacao-site input{
+    outline: none;
+    width: 12.5rem;
   }
-  #copyright{
-    width: 15rem;
+  .atualizacao-site button{
+    background-color: #8dc540;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    width: 7rem;
+    height: 2rem;
+    margin-top: .5rem;
   }
-  #copyright span{
-    margin-top: 1rem;
+  .footer-content h3{
+    padding: 1.5rem 0 1.5rem;
+    color: #ffff;
   }
-  #support span{
-    margin-top: 1rem;
+  .atualizacao-site input{
+    outline: none;
   }
-  #social-media a{
-    text-decoration: none;
-    margin-top: 1rem;
+  .footer-down{
+    color: #ffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+    box-shadow: 0 1px 3px 0 black ;
+  }
+  .footer-down p{
+    color:#858a90 ;
+  }
+  .footer-down a{
+    color: #ffff;
+  }
+  .footer-down i{
+    color: rgb(216, 216, 216);
+    font-size: 1.8rem;
+    margin-right: 1rem;
   }
   /*fim do footer pc*/
