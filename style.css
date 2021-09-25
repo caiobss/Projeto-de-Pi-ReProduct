@@ -59,6 +59,7 @@ header nav  {
   border-radius: 20px;
   border: 1px;
   background-color: #8dc540;
+  cursor: pointer;
 }
 #nav- button:hover {
   background-color: #9cc95d;
@@ -434,7 +435,7 @@ header nav  {
     position: relative;
     background-color: #273238;
     width: 100%;
-    height: 20rem;
+    height: 25rem;
   }
   .footer-content{
     position: absolute;
@@ -448,6 +449,10 @@ header nav  {
   .footer-content a{
     text-decoration: none;
     color: #858a90;
+    transition: .5s;
+  }
+  .footer-content a:hover{
+    color: rgb(116, 204, 255);
   }
   .footer-up{
     height: 80%;
@@ -471,12 +476,18 @@ header nav  {
   }
   .atualizacao-site button{
     background-color: #8dc540;
+    font-size: 15px;
     border-radius: 5px;
     color: white;
     border: none;
     width: 7rem;
     height: 2rem;
     margin-top: .5rem;
+    cursor: pointer;
+  }
+  .atualizacao-site button:hover{
+    background-color: #9cc95d;
+    box-shadow: 1px 1px 1px #949292;
   }
   .footer-content h3{
     padding: 1.5rem 0 1.5rem;
@@ -504,5 +515,9 @@ header nav  {
     color: rgb(216, 216, 216);
     font-size: 1.8rem;
     margin-right: 1rem;
+    transition: .5s;
+  }
+  .footer-down i:hover{
+    color: rgb(116, 204, 255);
   }
   /*fim do footer pc*/
