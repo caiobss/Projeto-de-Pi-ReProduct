@@ -6,55 +6,44 @@
     box-sizing: border-box;
     font-family: "Cantarell",sans-serif;
 }
-body{
-  overflow-x: hidden;
+header{
+  height: 18vh;
+  width: 100%;
+  border-bottom: #e2e2e2 0.12px solid;
+  box-shadow: #b3b0b0 0.5px 0.5px 0.5px;
 }
-header {
-    width: 100%;
-    height: 18vh;
-    display: flex;
-    align-items: center;
-    border-bottom: #e2e2e2 0.12px solid;
-    box-shadow: #b3b0b0 0.5px 0.5px 0.5px;
+nav{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 2rem;
 }
-nav a {
+.logo{
+  background-image: url(/images/logo_RP.png);
+  background-size: cover;
+  height: 12.3rem;
+  width: 21rem;
+}
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav a{
+  color: #202020;
   text-decoration: none;
 }
-header nav  {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-}
-#logo img {
-    position: relative;
-    top: 5px;
-    left: 100px;
-    list-style: none;
-    height: 200px;
-}
-#nav- {
-    position: relative;
-    right: 75px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-}
-#nav- a {
-    color: #202020;
-}
-#nav- a:hover{
+nav a:hover{
   text-decoration: underline;
 }
-#nav- li {
-    font-size: 20px;
-    list-style: none;
-    margin-right: 50px;
+nav li {
+  font-size: 20px;
+  list-style: none;
+  margin-right: 50px;
 }
-
-#nav- button {
+nav button {
   width: 125px;
   height: 35px;
   color: #fff;
@@ -64,7 +53,7 @@ header nav  {
   background-color: #8dc540;
   cursor: pointer;
 }
-#nav- button:hover {
+nav button:hover {
   background-color: #9cc95d;
   box-shadow: 1px 1px 1px #949292;
 }
@@ -89,15 +78,29 @@ header nav  {
   right: 8%;
   font-size: 1rem;
 }
+.hamburguer{
+  display: none; /*Deixar o menu mobile oculto*/
+}
+.hamburguer div{
+  background-color: black;
+  height: 2px;
+  width: 1.7rem;
+  margin: .4rem;
+  /*Estilização do menu mobile*/
+}
 .home {
     width: 100%;
     height: 82vh;
 }
-.home-info-img img {
+.home-info-img {
     width:450px;
     position: relative;
     left: 700px;
     bottom: 250px;
+}
+.home-info-img img{
+  width: 100%;
+  height: 100%;
 }
 .home-info {
     width: 1000px;
@@ -527,11 +530,3 @@ header nav  {
     color: rgb(116, 204, 255);
   }
   /*fim do footer pc*/
-
-  @media (max-width:999px) { /*iniciando o responsivo da pagina*/
-    .todos-produtos{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  }

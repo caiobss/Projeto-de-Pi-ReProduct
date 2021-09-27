@@ -41,3 +41,11 @@ prevButton.addEventListener("click", slidePrev);
 nextButton.addEventListener("click", slideNext);
 
 slider.addEventListener("transitionend", slide);
+
+
+const hamburguer = document.querySelector(".hamburguer")
+hamburguer.addEventListener('click', clicar)
+  function clicar(){
+    let menumobile = document.querySelector('.container')
+    menumobile.classList.toggle('mostre-menu')
+  }

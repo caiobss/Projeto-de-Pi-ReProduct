@@ -1,0 +1,26 @@
+@media (max-width:1300px) { /*Responsivo para o header mobile*/
+    .hamburguer{
+        display: block;
+    }
+    .menu{
+        background-color: brown;
+        position: absolute;
+        right: -30rem;
+        top: 18vh;
+        height: 70vh;
+        width: 30rem;
+        z-index: 100;
+        flex-direction: column;
+        transition: .3s;
+    }
+    .mostre-menu .menu{
+        right: 0%;
+      }
+}
+@media (max-width:999px) { /*Responsivo do resto da pagina*/
+    .todos-produtos{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
