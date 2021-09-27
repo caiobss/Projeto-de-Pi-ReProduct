@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: "Cantarell",sans-serif;
 }
+body{
+  overflow-x: hidden;
+}
 header {
     width: 100%;
     height: 18vh;
@@ -312,12 +315,15 @@ header nav  {
     grid-gap: 1rem;
     margin: 1rem;
   }
-  .tittle-produto, .tittle-produto a{
+  .tittle-produto{
     font-size: 1.5rem;
     margin: 3rem 4rem 0 4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #202020;
+  }
+  .tittle-produto a{
     color: #202020;
   }
   .produto{
@@ -521,3 +527,11 @@ header nav  {
     color: rgb(116, 204, 255);
   }
   /*fim do footer pc*/
+
+  @media (max-width:999px) { /*iniciando o responsivo da pagina*/
+    .todos-produtos{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
