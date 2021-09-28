@@ -1,21 +1,47 @@
 @media (max-width:1300px) { /*Responsivo para o header mobile*/
+    body{
+      width: 100vw;
+      height: 100vh;
+      overflow-x: hidden;
+    }
+    .home{
+      width: 100%;
+      height: 100%;
+    }
+    .hero{
+      height: 100%;
+      width: 100%;
+    }
     .hamburguer{
-        display: block;
+        display: block;/*quando a largora maxima for atingida o hamburguer será exibido substituindo o menu pc*/
     }
     .menu{
-        background-color: brown;
         position: absolute;
-        right: -30rem;
+        background-color: rgb(185, 185, 185);
+        right: 0%;
         top: 18vh;
-        height: 70vh;
-        width: 30rem;
+        height: 35vh;
+        width: 60%;
         z-index: 100;
         flex-direction: column;
-        transition: .3s;
+        opacity: 1;
+        visibility: hidden;
+        cursor: pointer;
+    }
+    .menu li{
+      margin-bottom: 2rem;
+      margin-left: 3.5rem;
+    }
+    .menu a{
+      color: white;
     }
     .mostre-menu .menu{
-        right: 0%;
+        opacity: 1;
+        visibility: visible;
       }
+}
+@media (max-width:1024px){
+  
 }
 @media (max-width:999px) { /*Responsivo do resto da pagina*/
     .todos-produtos{
