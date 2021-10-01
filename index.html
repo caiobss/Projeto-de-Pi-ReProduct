@@ -10,12 +10,13 @@
     <title>ReProduct</title>
 </head>
 <body>
-  <div class="container">
-    <header>
+  <div class="container"><!--div global de todos os elementos da página-->
+
+    <header> <!--Pequenas modificações na semantica-->
       <nav>
           <div class="logo">
           </div>
-          <div class="hamburguer">
+          <div class="hamburguer"><!--div do menu hamburguer-->
               <div class="linha"></div>
               <div class="linha"></div>
               <div class="linha"></div>
@@ -23,7 +24,7 @@
           <ul class="menu">
               <li>
                   <div class="search">
-                    <input type="search" name="" id="" placeholder="Pesquisar produtos">
+                    <input type="search" name="pesquisar" id="pesquisar" placeholder="Pesquisar produtos">
                     <div class="icon-search">
                       <i class="fas fa-search"></i>
                     </div>
@@ -31,19 +32,19 @@
               </li>
               <li><a href="#">Seu carrinho</a></li>
               <li><a href="#">Suas vendas</a></li>
-              <li><button onclick="window.location.href='https://cadastro-reproduct.netlify.app'">Cadastrar</button></li>
+              <li><button class="bnt-cadastro" onclick="window.location.href='https://cadastro-reproduct.netlify.app'">Cadastrar</button></li>
           </ul>
       </nav>
   </header>
 
-  <section class="home">
+  <section class="home"> <!--Pequenas modificações na semantica dessa sessão apenas para deixar os elementos um do lado do outro com o "display:flex;" (sem nenhuma alteração gráfica)-->
       <div class="home-info">
         <div class="home-info-txt">
           <h1>Seja Bem Vindo ao ReProduct.</h1>
           <p>Aqui, sua empresa poderá comercializar com outras empresas matérias <br> primas, 
            evitando o desperdício de material e possibilitando um mercado <br>
           de consumo sustentável.</p>
-          <button onclick="window.location.href='https://cadastro-reproduct.netlify.app'">Cadastrar</button>
+          <button class="bnt-cadastro" onclick="window.location.href='https://cadastro-reproduct.netlify.app'">Cadastrar</button>
         </div>
         <div class="home-info-img">
             <img src="/images/undraw_interview_rmcf.svg" alt="">
@@ -51,7 +52,7 @@
       </div>
   </section>
 
-  <section class="hero">
+  <section class="hero"> <!--Modificações de semantica para o posicionamento-->
       <div class="container">
           <div class="carousel">
             <div class="slider">
@@ -113,7 +114,7 @@
         </div>
   </section>
 
-  <section class="sessao-produtos">
+  <section class="sessao-produtos"><!--Nova sessão da tela de produtos destaque-->
       <div class="tittle-produto">
         <h1>Ofertas do dia</h1>
         <a href="#">Ver todas</a>
@@ -183,7 +184,7 @@
       </div>
   </section>
 
-  <section class="sessao-desconto">
+  <section class="sessao-desconto"> <!--Possui os mesmos padrões da tela de produtos destaque-->
     <div class="tittle-produto">
       <h1>Estoque em desconto</h1>
       <a href="#">Ver todas</a>
@@ -253,7 +254,7 @@
     </div>
   </section>
 
-  <section class="sessao-empresas">
+  <section class="sessao-empresas"> <!--Nova sessão de empresas relacionadas-->
       <div class="tittle-produto">
         <h1>Empresas relacionadas</h1>
         <a href="#">Ver todas</a>
@@ -292,7 +293,7 @@
     </div>
   </section>
 
-  <footer>
+  <footer> <!--novo footer-->
     <div class="footer-content">
       <div class="footer-up">
         <div class="footer-up-content">
@@ -336,6 +337,7 @@
       </div>
     </div>
   </footer>
+  
   </div>
 
       <script src="./app.js"></script>

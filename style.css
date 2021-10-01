@@ -43,7 +43,7 @@ nav li {
   list-style: none;
   margin-right: 50px;
 }
-nav button {
+.bnt-cadastro {
   width: 125px;
   height: 35px;
   color: #fff;
@@ -53,7 +53,7 @@ nav button {
   background-color: #8dc540;
   cursor: pointer;
 }
-nav button:hover {
+.bnt-cadastro:hover {
   background-color: #9cc95d;
   box-shadow: 1px 1px 1px #949292;
 }
