@@ -241,6 +241,7 @@ nav li {
     text-align: center;
     color: white;
     font-weight: 500;
+    text-shadow: 1px 1px 1px rgba(15, 15, 15, 0.658);
   }
   .sec-txt a{
     font-size: 1.5rem ;
@@ -358,6 +359,7 @@ nav li {
     bottom: 15%;
     text-align: center;
     color: white;
+    text-shadow: 1px 1px 1px rgba(15, 15, 15, 0.658);
   }
   .txt-produto h1{
     margin-bottom: 4rem;
