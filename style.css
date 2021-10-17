@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: "Cantarell",sans-serif;
 }
+html{
+  scroll-behavior: smooth;
+}
 header{
   height: 18vh;
   width: 100%;
@@ -241,7 +244,6 @@ nav li {
     text-align: center;
     color: white;
     font-weight: 500;
-    text-shadow: 1px 1px 1px rgba(15, 15, 15, 0.658);
   }
   .sec-txt a{
     font-size: 1.5rem ;
@@ -359,7 +361,6 @@ nav li {
     bottom: 15%;
     text-align: center;
     color: white;
-    text-shadow: 1px 1px 1px rgba(15, 15, 15, 0.658);
   }
   .txt-produto h1{
     margin-bottom: 4rem;
@@ -525,3 +526,17 @@ nav li {
     color: rgb(116, 204, 255);
   }
   /*fim do footer pc*/
+
+  .retornar-top i{
+    background-color: #3176dd;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 5px;
+    bottom: 3rem;
+    right: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }/*Botaão que faz retornar a parte inicial da pagina*/
