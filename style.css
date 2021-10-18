@@ -7,7 +7,7 @@
     font-family: "Cantarell",sans-serif;
 }
 html{
-  scroll-behavior: smooth;
+  scroll-behavior: smooth;/*scroll suave*/
 }
 header{
   height: 18vh;
@@ -530,6 +530,7 @@ nav li {
   .retornar-top i{
     background-color: #3176dd;
     color: rgb(255, 255, 255);
+    box-shadow: 1px 2px 1px rgb(0, 0, 0);
     position: fixed;
     height: 3rem;
     width: 3rem;
@@ -539,4 +540,4 @@ nav li {
     display: flex;
     justify-content: center;
     align-items: center;
-  }/*Botaão que faz retornar a parte inicial da pagina*/
+  }/*Botão que faz retornar a parte inicial da pagina*/
