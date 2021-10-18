@@ -464,6 +464,32 @@ nav li {
     align-items: center;
     font-size: 3rem;
   }
+  .Login-alternativo{
+    width: 100%;
+    height: 10rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Login-alternativo div{
+    border: 1px solid rgb(223, 223, 223);
+    width: 100%;
+    padding: 1rem 0;
+  }
+  .Login-alternativo button{
+    background-color: #8dc540;
+    border: none;
+    border-radius: 5px;
+    margin: .5rem 0;
+    width: 13rem;
+    height: 2rem;
+    cursor: pointer;
+  }
+  .Login-alternativo button a{
+    color: white;
+    text-decoration: none;
+  }
   /*Abaixo inicia a estilização do footer para pc*/
   footer{
     position: relative;
