@@ -314,7 +314,7 @@ nav li {
     grid-gap: 1rem;
     margin: 1rem;
   }
-  .tittle-produto{
+  .sessao-tittle{
     font-size: 1.5rem;
     margin: 3rem 4rem 0 4rem;
     display: flex;
@@ -322,7 +322,7 @@ nav li {
     align-items: center;
     color: #202020;
   }
-  .tittle-produto a{
+  .sessao-tittle a{
     color: #202020;
   }
   .produto{
@@ -435,6 +435,35 @@ nav li {
     background-color: #9cc95d;
     box-shadow: 1px 1px 1px #949292;
   }
+  .transportes-content{
+    margin: 2rem 0;
+    background-color: rgb(243, 243, 242);
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .transporte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .transporte i{
+    margin: 1rem 0;
+    background-color: #fff;
+    color: #8dc540;
+    border-radius: 50%;
+    box-shadow: 4px 2px 6px rgba(12, 17, 22, 0.37);
+    height: 8rem;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+  }
   /*Abaixo inicia a estilização do footer para pc*/
   footer{
     position: relative;
@@ -528,7 +557,7 @@ nav li {
   /*fim do footer pc*/
 
   .retornar-top i{
-    background-color: #3176dd;
+    background-color: rgb(156, 157, 250);
     color: rgb(255, 255, 255);
     box-shadow: 1px 2px 1px rgb(0, 0, 0);
     position: fixed;
