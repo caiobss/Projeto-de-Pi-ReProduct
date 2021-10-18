@@ -506,16 +506,13 @@ nav li {
   }
   .Login-alternativo button{
     background-color: #8dc540;
+    color: white;
     border: none;
     border-radius: 5px;
     margin: .5rem 0;
     width: 13rem;
     height: 2rem;
     cursor: pointer;
-  }
-  .Login-alternativo button a{
-    color: white;
-    text-decoration: none;
   }
   /*Abaixo inicia a estilização do footer para pc*/
   footer{
