@@ -435,6 +435,27 @@ nav li {
     background-color: #9cc95d;
     box-shadow: 1px 1px 1px #949292;
   }
+  /*Empresas destaques*/
+  .empresas-destaques{
+    height: 150vh;
+    width: 100%;
+  }
+  .destaques{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .empresa-destaque{
+    background-color: #8dc540;
+    height: 20rem;
+    width: 60rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+  }
+  /*meios de transportes*/
   .transportes-content{
     margin: 2rem 0;
     background-color: rgb(243, 243, 242);
@@ -450,6 +471,7 @@ nav li {
     align-items: center;
     justify-content: space-around;
     width: 100%;
+    cursor: pointer;
   }
   .transporte i{
     margin: 1rem 0;
@@ -463,7 +485,12 @@ nav li {
     justify-content: center;
     align-items: center;
     font-size: 3rem;
+    transition: .3s;
   }
+  .transporte h1{
+    font-size: 1.2rem;
+  }
+  /*login alternativo que fica acima do footer*/
   .Login-alternativo{
     width: 100%;
     height: 10rem;
