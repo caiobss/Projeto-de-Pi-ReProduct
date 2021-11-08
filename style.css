@@ -457,21 +457,21 @@ nav li {
   }
   .empresa-destaque{
     position: relative;
-    background-color: #d37979;
     height: 45vh;
     width: 70%;
-    border-radius: 10px;
   }
   .img-empresa-destaque{
     background-color: #006837;
     height: 100%;
     width: 100%;
+    border-radius: 20px;
   }
   .img-empresa-destaque img{
     opacity: 0.6;
     object-fit: cover;
     height: 100%;
     width: 100%;
+    border-radius: 20px;
   }
   .txt-empresa-destaque{
     color: white;
@@ -647,7 +647,7 @@ nav li {
     width: 3rem;
     border-radius: 5px;
     bottom: 3rem;
-    right: 3rem;
+    right: 2.6rem;
     display: flex;
     justify-content: center;
     align-items: center;
