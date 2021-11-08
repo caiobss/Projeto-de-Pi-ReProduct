@@ -463,10 +463,12 @@ nav li {
     border-radius: 10px;
   }
   .img-empresa-destaque{
+    background-color: #006837;
     height: 100%;
     width: 100%;
   }
   .img-empresa-destaque img{
+    opacity: 0.6;
     object-fit: cover;
     height: 100%;
     width: 100%;
@@ -474,12 +476,21 @@ nav li {
   .txt-empresa-destaque{
     color: white;
     position: absolute;
-    bottom: 1.5rem;
+    bottom: 1rem;
     left: 1rem;
     font-size: 1.2rem;
+    text-shadow: .1rem .1rem 1px rgba(15, 15, 15, 0.74);
   }
   .txt-empresa-destaque i{
+    color: yellow;
     font-size: 2rem;
+  }
+  .txt-empresa-destaque h1{
+    color: rgb(156, 157, 250);
+    margin: .5rem 0;
+  }
+  .txt-empresa-destaque button{
+    margin: 1rem 0;
   }
   /*meios de transportes*/
   .transportes-content{
