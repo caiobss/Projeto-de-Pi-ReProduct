@@ -24,7 +24,7 @@
         width: 60%;
         z-index: 100;
         flex-direction: column;
-        opacity: 1;
+        opacity: 0;
         visibility: hidden;
         cursor: pointer;
     }
@@ -39,9 +39,6 @@
         opacity: 1;
         visibility: visible;
       }
-}
-@media (max-width:1024px){
-  
 }
 @media (max-width:999px) { /*Responsivo do resto da pagina*/
     .todos-produtos{
