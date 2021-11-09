@@ -395,7 +395,7 @@ nav li {
     margin-top: 1rem;
     position: relative;
     height: 75vh;
-    width: 23.5%;
+    width: 24%;
   }
   .img-empresa{
     background-color: #006837;
@@ -516,8 +516,7 @@ nav li {
     color: #8dc540;
     border-radius: 50%;
     box-shadow: 4px 2px 6px rgba(12, 17, 22, 0.37);
-    height: 20vh;
-    width: 47.5%;
+    padding: 14%;
     display: flex;
     justify-content: center;
     align-items: center;
