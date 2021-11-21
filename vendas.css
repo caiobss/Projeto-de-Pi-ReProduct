@@ -1,0 +1,150 @@
+
+.sessao-perfil{
+    height: 82vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid grey;
+}
+.perfil{
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    height: 100%;
+    width: 75%;
+}
+.perfil-content{
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.perfil-header .menu-perfil{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.perfil-header .menu-perfil i{
+    color: rgb(214, 214, 214);
+    font-size: 1.9rem;
+    transition: .3s;
+}
+.perfil-header .menu-perfil li a{
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    transition: .3s;
+}
+.perfil-header .menu-perfil li a:hover{
+    color: rgb(156, 157, 250);
+}
+.perfil-header .menu-perfil li i:hover{
+    color: rgb(156, 157, 250);
+}
+.img-perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30rem;
+    width: 25rem;
+}
+.img-perfil .icon-user{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 238, 238);
+    color: rgb(141, 138, 138);
+    font-size: 12rem;
+    border-radius: 30px 30px 0 0;
+}
+.information-user{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid grey;
+    border-top: none;
+    height: 50%;
+    width: 100%;
+    border-radius: 0 0 30px 30px;
+}
+.txt-perfil{
+    padding: 3.5rem 0;
+    height: 50%;
+    width: 100%;
+}
+.txt-perfil h1{
+    color: rgb(78, 134, 253);
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+.txt-perfil p{
+    font-size: 1.4rem;
+}
+.buttons-perfil{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.buttons-perfil button{
+    background-color: rgb(236, 96, 96);
+    color: #ffff;
+    height: 3rem;
+    width: 10rem;
+    border: none;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+    transition: .3s;
+    cursor: pointer;
+}
+.buttons-perfil button:hover{
+    background-color: transparent;
+    border: 2px solid rgb(236, 96, 96);
+    color: black;
+}
+.buttons-perfil i{
+    background-color: #3f85c6;
+    color: white;
+    padding: .5rem;
+    border-radius: 50%;
+    margin-left: 1rem;
+    font-size: 1.1rem;
+    transition: .3s;
+    cursor: pointer;
+}
+.buttons-perfil i:hover{
+    background-color: #32689b;
+}
+.sessao-publicações{
+    height: 120vh;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+.publicações{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.publicação{
+    border-radius: 5%;
+    background-color: rgb(184, 184, 184);
+    height: 40%;
+    width: 29%;
+    margin: 1rem 1rem;
+    transition: .3s;
+}
+.publicação:hover{
+    transform: scale(1.2);
+    z-index: 100;
+    margin: 0 3rem;
+}

@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Cantarell",sans-serif;
+    list-style: none;
 }
 html{
   scroll-behavior: smooth;/*scroll suave*/
@@ -33,6 +34,12 @@ nav{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.menu .fa-user{
+  background-color: #bbbbbb;
+  color: white;
+  padding: 1rem;
+  border-radius: 50%;
 }
 nav a{
   color: #202020;
@@ -108,7 +115,6 @@ nav li {
   height: 100%;
 }
 .home-info-txt{
-  position: relative;
   width: 50%;
   height: 100%;
   display: flex;
@@ -296,6 +302,7 @@ nav li {
     border: none;
   }
   .controls i{
+    cursor: pointer;
     font-size: 1.5rem;
     color: rgb(100, 100, 100);
   }
