@@ -349,6 +349,7 @@ nav li {
     color: #202020;
   }
   .produto{
+    border: 1px solid grey;
     background-color: #006837a4;
     position: relative;
     border-radius: 20px;
@@ -367,7 +368,6 @@ nav li {
     width: 100%;
   }
   .produto-img img{
-    opacity: .7;
     border-radius: 20px;
     object-fit: cover;
     height: 100%;

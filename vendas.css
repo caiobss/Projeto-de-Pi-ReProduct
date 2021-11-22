@@ -60,7 +60,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(240, 240, 240);
     color: rgb(141, 138, 138);
     font-size: 12rem;
     border-radius: 30px 30px 0 0;
@@ -72,6 +72,25 @@
     height: 50%;
     width: 100%;
     border-radius: 0 0 30px 30px;
+}
+.information-user div{
+    margin-top: 1rem;
+    margin-left: .5rem;
+}
+.information-user div h1{
+    font-size: 1.5rem;
+}
+.information-user div h3{
+    margin-top: .5rem;
+    font-size: 1.1rem;
+}
+.information-user i{
+    color: rgb(181, 184, 42);
+    font-size: 1.3rem;
+}
+.info-user li{
+    padding: .5rem 0;
+    font-weight: 600;
 }
 .txt-perfil{
     padding: 3.5rem 0;
@@ -92,21 +111,31 @@
     justify-content: space-between;
 }
 .buttons-perfil button{
-    background-color: rgb(236, 96, 96);
-    color: #ffff;
     height: 3rem;
     width: 10rem;
-    border: none;
     font-size: 1.2rem;
     margin-right: 1rem;
     border-radius: 5px;
-    transition: .3s;
     cursor: pointer;
+    border: none;
+    transition: .3s;
 }
-.buttons-perfil button:hover{
+.buttons-perfil button:nth-child(1){
+    background-color: rgb(236, 96, 96);
+    color: #ffff;
+}
+.buttons-perfil button:nth-child(2){
     background-color: transparent;
     border: 2px solid rgb(236, 96, 96);
-    color: black;
+    color: rgb(236, 96, 96);
+}
+.buttons-perfil button:hover{
+    background-color: rgb(173, 72, 72);
+}
+.buttons-perfil button:nth-child(2):hover{
+    background-color: rgb(173, 72, 72);
+    border: rgb(163, 68, 68);
+    color: white;
 }
 .buttons-perfil i{
     background-color: #3f85c6;
@@ -136,15 +165,46 @@
     justify-content: center;
 }
 .publicação{
+    cursor: pointer;
+    position: relative;
     border-radius: 5%;
     background-color: rgb(184, 184, 184);
     height: 40%;
     width: 29%;
     margin: 1rem 1rem;
     transition: .3s;
+    border: 1px solid grey;
+}
+.publicação img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
 }
 .publicação:hover{
     transform: scale(1.2);
     z-index: 100;
     margin: 0 3rem;
+    opacity: .82;
+}
+.bnt-public{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.bnt-public i{
+    color: #ffff;
+    font-size: 3.5rem;
+    padding: 0 1rem;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+    text-shadow: 2px 2px 1px black;
+    cursor: pointer;
+}
+.publicação:hover .bnt-public i{
+    opacity: 1;
+    visibility: visible;
 }
