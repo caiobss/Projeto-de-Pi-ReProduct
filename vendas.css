@@ -29,7 +29,7 @@
     justify-content: space-between;
 }
 .perfil-header .menu-perfil i{
-    color: rgb(214, 214, 214);
+    color: #bbbbbb;
     font-size: 1.9rem;
     transition: .3s;
 }
@@ -53,6 +53,8 @@
     justify-content: center;
     height: 30rem;
     width: 25rem;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 30px;
 }
 .img-perfil .icon-user{
     height: 50%;
@@ -60,15 +62,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(240, 240, 240);
-    color: rgb(141, 138, 138);
+    background-color: rgb(245, 245, 245);
+    color: #bbbbbb;
     font-size: 12rem;
     border-radius: 30px 30px 0 0;
-}
+}/*estilização visual do icone de usuário*/
 .information-user{
     background-color: rgb(255, 255, 255);
-    border: 1px solid grey;
-    border-top: none;
     height: 50%;
     width: 100%;
     border-radius: 0 0 30px 30px;
@@ -150,6 +150,10 @@
 .buttons-perfil i:hover{
     background-color: #32689b;
 }
+/*sessao-publicação*/
+.sessao-tittle i:hover{
+    background-color: aqua;
+}
 .sessao-publicações{
     height: 120vh;
     width: 100%;
@@ -208,3 +212,42 @@
     opacity: 1;
     visibility: visible;
 }
+/*recomendados*/
+
+/*.sessao-recomendados{
+    height: 80vh;
+    width: 100%;
+}
+.perfis-empresas{
+    background-color: #ececec;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.perfil-empresa{
+    color: rgb(36, 36, 36);
+    height: 25rem;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.img-perfil-empresa{
+    height: 65%;
+    width: 65%;
+    border-radius: 50%;
+}
+.img-perfil-empresa img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.txt-perfil-empresa{
+    padding: .4rem 2rem;
+}*/
