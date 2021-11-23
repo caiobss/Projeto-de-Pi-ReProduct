@@ -266,6 +266,7 @@ nav li {
     text-align: center;
     color: white;
     font-weight: 500;
+    text-shadow: 1px 1px 1px black;
   }
   .sec-txt a{
     font-size: 1.5rem ;
@@ -349,7 +350,6 @@ nav li {
     color: #202020;
   }
   .produto{
-    border: 1px solid grey;
     background-color: #006837a4;
     position: relative;
     border-radius: 20px;
@@ -372,6 +372,7 @@ nav li {
     object-fit: cover;
     height: 100%;
     width: 100%;
+    opacity: .75;
   }
   .produto:hover{
     transform: scale(.93);
@@ -386,6 +387,7 @@ nav li {
     bottom: 15%;
     text-align: center;
     color: white;
+    text-shadow: 1px 1px 1px black;
   }
   .txt-produto h1{
     margin-bottom: 4rem;
